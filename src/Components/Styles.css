@@ -1,0 +1,132 @@
+body {
+  overflow: hidden;
+}
+
+.header {
+  position: sticky;
+  top: 0;
+  height: 55px;
+  overflow: hidden;
+  background-color: white;
+  display: inline-block;
+  vertical-align: top;
+  width: 100vw;
+  box-shadow: 0px 0px 20px rgb(0, 0, 0, 0.5);
+}
+
+.headerTitle {
+  display: inline-block;
+  vertical-align: top;
+  padding-top: 11px;
+  padding-left: 15px;
+  font-size: 25px;
+}
+
+.YoutubeIcon {
+  margin-left: 10px;
+  margin-top: -35px;
+  height: 125px;
+}
+
+.footer {
+  position: absolute;
+  top: calc(100vh - 40px);
+  background-color: rgb(235, 235, 235);
+  height: 30px;
+  padding: 10px;
+  width: 100vw;
+  text-align: center;
+  font-size: 12px;
+}
+
+.credits {
+  float: left;
+}
+
+.githubIcon {
+  font-size: 20px;
+  margin-right: 20px;
+  float: right;
+  color: rgb(125, 125, 125);
+  cursor: pointer;
+}
+.githubIcon:hover {
+  color: rgb(50, 50, 50);
+}
+
+.searchContainer {
+  margin-top: 5px;
+  float: right;
+  margin-right: 10px;
+  vertical-align: top;
+}
+
+.searchInput {
+  width: 230px;
+  border-top: hidden;
+  border-left: hidden;
+  border-right: hidden;
+  border-bottom: 2px solid rgb(0, 0, 0, 0.5);
+  padding: 5px;
+  font-size: 16px;
+  outline: none;
+}
+.searchInput:hover {
+  border-bottom: 2px solid rgb(255, 0, 0, 0.5);
+}
+
+.SearchIcon {
+  display: inline-block;
+  margin-left: 5px;
+  margin-bottom: -17.5px;
+  width: 30px;
+  height: 30px;
+  border-radius: 20px;
+  padding: 7.5px;
+  cursor: pointer;
+}
+.SearchIcon:hover {
+  box-shadow: 0px 2.5px 5px rgb(0, 0, 0, 0.5);
+}
+.SearchIcon:active {
+  box-shadow: inset 0px 2.5px 5px rgb(0, 0, 0, 0.5);
+  font-size: 15px;
+}
+
+.searchResults {
+  vertical-align: top;
+  display: inline-block;
+  width: 300px;
+  height: 100vh;
+  box-shadow: 0px 0px 20px rgb(0, 0, 0, 0.5);
+  overflow: auto;
+}
+.searchResults::-webkit-scrollbar {
+  display: none;
+}
+
+.searchResult {
+  text-align: center;
+  margin-bottom: 20px;
+  padding: 10px;
+  margin-top: 20px;
+  font-size: 18px;
+  font-weight: bold;
+  cursor: pointer;
+}
+.searchResult:hover {
+  box-shadow: 0px 0px 10px rgb(0, 0, 0, 0.5);
+}
+.searchResult:active {
+  box-shadow: inset 0px 0px 10px rgb(0, 0, 0, 0.5);
+}
+
+.playlistContainer {
+  overflow: auto;
+  display: inline-block;
+  width: calc(100vw - 300px);
+  height: 100vh;
+}
+.playlistContainer::-webkit-scrollbar {
+  display: none;
+}

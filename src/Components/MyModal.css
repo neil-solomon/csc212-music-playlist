@@ -1,0 +1,109 @@
+.MyModal {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 100;
+  animation: showModal 0.25s forwards;
+}
+
+@keyframes showModal {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.MyModal_container {
+  position: absolute;
+  overflow: hidden;
+  z-index: 102;
+  /* padding-top: 10px; */
+  background-color: white;
+  border-radius: 10px;
+  height: 95vh;
+}
+
+.MyModal_header {
+  height: 25px;
+  text-align: center;
+}
+
+.MyModal_divider {
+  margin-top: 1.5px;
+  margin-bottom: 1.5px;
+  height: 2px;
+  width: 100%;
+  background-image: linear-gradient(to right, white, rgb(0, 0, 0, 0.5), white);
+}
+
+.MyModal_content {
+  background-color: white;
+  overflow-y: auto;
+  height: calc(95vh - 175px);
+}
+.MyModal_content::-webkit-scrollbar {
+  display: block;
+}
+.MyModal_content::-webkit-scrollbar-track {
+  display: block;
+  height: 10px;
+  background-color: rgb(215, 215, 215);
+  border-radius: 5px;
+}
+.MyModal_content::-webkit-scrollbar-thumb {
+  display: block;
+  height: 10px;
+  background-color: rgb(66, 78, 191, 0.4);
+  border-radius: 5px;
+}
+.MyModal_content::-webkit-scrollbar-thumb:hover {
+  display: block;
+  height: 10px;
+  background-color: rgb(66, 78, 191, 0.6);
+  border-radius: 5px;
+}
+.MyModal_content::-webkit-scrollbar-thumb:active {
+  display: block;
+  height: 10px;
+  background-color: rgb(66, 78, 191, 0.8);
+  border-radius: 5px;
+}
+
+.MyModal_footer {
+  text-align: right;
+  padding-top: 5px;
+  padding-right: 20px;
+  background-color: white;
+  height: 25px;
+  width: 100%;
+}
+
+.MyModal_overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  z-index: 101;
+  background-color: rgb(0, 0, 0, 0.5);
+}
+
+.MyModal_hide {
+  z-index: 100;
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  width: 100vw;
+  animation: hideModal 0.25s forwards;
+}
+
+@keyframes hideModal {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}

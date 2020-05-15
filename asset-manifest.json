@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/csc212-music-playlist/static/css/main.5b79b0f0.chunk.css",
+    "main.css": "/csc212-music-playlist/static/css/main.a0eb9bda.chunk.css",
     "main.js": "/csc212-music-playlist/static/js/main.3676a262.chunk.js",
     "main.js.map": "/csc212-music-playlist/static/js/main.3676a262.chunk.js.map",
     "runtime-main.js": "/csc212-music-playlist/static/js/runtime-main.caa11646.js",
@@ -8,9 +8,9 @@
     "static/js/2.315492d9.chunk.js": "/csc212-music-playlist/static/js/2.315492d9.chunk.js",
     "static/js/2.315492d9.chunk.js.map": "/csc212-music-playlist/static/js/2.315492d9.chunk.js.map",
     "index.html": "/csc212-music-playlist/index.html",
-    "precache-manifest.77977ec0b42eace098d06caffb1d30a2.js": "/csc212-music-playlist/precache-manifest.77977ec0b42eace098d06caffb1d30a2.js",
+    "precache-manifest.4d2b809a0cd630b4d6ec4ffcc06f4e77.js": "/csc212-music-playlist/precache-manifest.4d2b809a0cd630b4d6ec4ffcc06f4e77.js",
     "service-worker.js": "/csc212-music-playlist/service-worker.js",
-    "static/css/main.5b79b0f0.chunk.css.map": "/csc212-music-playlist/static/css/main.5b79b0f0.chunk.css.map",
+    "static/css/main.a0eb9bda.chunk.css.map": "/csc212-music-playlist/static/css/main.a0eb9bda.chunk.css.map",
     "static/js/2.315492d9.chunk.js.LICENSE.txt": "/csc212-music-playlist/static/js/2.315492d9.chunk.js.LICENSE.txt",
     "static/media/search.788f45ab.svg": "/csc212-music-playlist/static/media/search.788f45ab.svg",
     "static/media/youtube.a51ab7ed.svg": "/csc212-music-playlist/static/media/youtube.a51ab7ed.svg"
@@ -18,7 +18,7 @@
   "entrypoints": [
     "static/js/runtime-main.caa11646.js",
     "static/js/2.315492d9.chunk.js",
-    "static/css/main.5b79b0f0.chunk.css",
+    "static/css/main.a0eb9bda.chunk.css",
     "static/js/main.3676a262.chunk.js"
   ]
 }
